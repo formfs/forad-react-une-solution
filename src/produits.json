@@ -1,0 +1,544 @@
+{
+  "categories": [
+    {
+      "id": "electronics",
+      "name": "Électronique",
+      "subcategories": [
+        { "id": "audio", "name": "Appareils Audio" },
+        { "id": "computing", "name": "Informatique" },
+        { "id": "mobile", "name": "Appareils Mobiles" }
+      ]
+    },
+    {
+      "id": "home",
+      "name": "Maison & Vie",
+      "subcategories": [
+        { "id": "kitchen", "name": "Électroménager" },
+        { "id": "furniture", "name": "Meubles" }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "Sports & Plein Air",
+      "subcategories": [
+        { "id": "fitness", "name": "Matériel de Fitness" },
+        { "id": "outdoor", "name": "Équipement Extérieur" }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Casque Sans Fil Anti-bruit",
+      "price": 299.99,
+      "category": "electronics",
+      "subcategory": "audio",
+      "brand": "SoundMax",
+      "image": "https://placeimg.dev/400x300/2563eb/ffffff?text=Casque",
+      "description": "Casque premium sans fil avec annulation active du bruit et autonomie de 30 heures",
+      "specifications": {
+        "autonomie": "30 heures",
+        "connectivité": "Bluetooth 5.0",
+        "poids": "250g",
+        "couleurs": ["Noir", "Argent", "Bleu"]
+      },
+      "stock": 45,
+      "rating": 4.7
+    },
+    {
+      "id": 2,
+      "name": "Enceinte Bluetooth Portable",
+      "price": 129.99,
+      "category": "electronics",
+      "subcategory": "audio",
+      "brand": "WaveSound",
+      "image": "https://placeimg.dev/400x300/9333ea/ffffff?text=Enceinte",
+      "description": "Enceinte compacte résistante à l’eau avec un son clair et puissant",
+      "specifications": {
+        "autonomie": "20 heures",
+        "connectivité": "Bluetooth 5.3",
+        "étanchéité": "IPX7"
+      },
+      "stock": 60,
+      "rating": 4.6
+    },
+    {
+      "id": 3,
+      "name": "Ordinateur Portable Ultrabook X10",
+      "price": 1249.99,
+      "category": "electronics",
+      "subcategory": "computing",
+      "brand": "TechPro",
+      "image": "https://placeimg.dev/400x300/0ea5e9/ffffff?text=Laptop",
+      "description": "Laptop ultrafin avec processeur Intel Core i7 et SSD 1 To",
+      "specifications": {
+        "processeur": "Intel Core i7",
+        "mémoire": "16 Go",
+        "stockage": "1 To SSD",
+        "écran": "14 pouces Full HD"
+      },
+      "stock": 25,
+      "rating": 4.8
+    },
+    {
+      "id": 4,
+      "name": "Clavier Mécanique RGB",
+      "price": 89.99,
+      "category": "electronics",
+      "subcategory": "computing",
+      "brand": "ClickyTech",
+      "image": "https://placeimg.dev/400x300/f97316/ffffff?text=Clavier",
+      "description": "Clavier mécanique avec rétroéclairage personnalisable RGB",
+      "specifications": {
+        "switch": "Red",
+        "connectivité": "USB-C",
+        "layout": "AZERTY"
+      },
+      "stock": 80,
+      "rating": 4.5
+    },
+    {
+      "id": 5,
+      "name": "Souris Gaming Pro",
+      "price": 69.99,
+      "category": "electronics",
+      "subcategory": "computing",
+      "brand": "HyperEdge",
+      "image": "https://placeimg.dev/400x300/facc15/000000?text=Souris",
+      "description": "Souris ergonomique haute précision avec capteur optique 16000 DPI",
+      "specifications": {
+        "DPI": "16000",
+        "boutons_programmables": 6,
+        "connexion": "USB"
+      },
+      "stock": 70,
+      "rating": 4.6
+    },
+    {
+      "id": 6,
+      "name": "Smartphone Galaxy E12",
+      "price": 899.99,
+      "category": "electronics",
+      "subcategory": "mobile",
+      "brand": "Samsone",
+      "image": "https://placeimg.dev/400x300/84cc16/ffffff?text=Smartphone",
+      "description": "Smartphone haut de gamme avec triple caméra et écran OLED 6.5 pouces",
+      "specifications": {
+        "stockage": "256 Go",
+        "RAM": "8 Go",
+        "batterie": "5000 mAh"
+      },
+      "stock": 50,
+      "rating": 4.8
+    },
+    {
+      "id": 7,
+      "name": "Tablette ProTab 11",
+      "price": 649.99,
+      "category": "electronics",
+      "subcategory": "mobile",
+      "brand": "TechPro",
+      "image": "https://placeimg.dev/400x300/06b6d4/ffffff?text=Tablette",
+      "description": "Tablette performante avec stylet et affichage 120 Hz",
+      "specifications": {
+        "écran": "11 pouces",
+        "batterie": "7500 mAh",
+        "stockage": "128 Go"
+      },
+      "stock": 35,
+      "rating": 4.7
+    },
+    {
+      "id": 8,
+      "name": "Montre Connectée FitTrack S",
+      "price": 199.99,
+      "category": "electronics",
+      "subcategory": "mobile",
+      "brand": "LiveFit",
+      "image": "https://placeimg.dev/400x300/22c55e/ffffff?text=Montre",
+      "description": "Montre connectée étanche avec suivi du sommeil et du rythme cardiaque",
+      "specifications": {
+        "écran": "AMOLED 1.4\"",
+        "autonomie": "10 jours",
+        "résistance": "IP68"
+      },
+      "stock": 90,
+      "rating": 4.4
+    },
+    {
+      "id": 9,
+      "name": "Réfrigérateur NoFrost 320L",
+      "price": 699.99,
+      "category": "home",
+      "subcategory": "kitchen",
+      "brand": "CoolWave",
+      "image": "https://placeimg.dev/400x300/0891b2/ffffff?text=Frigo",
+      "description": "Réfrigérateur intelligent avec mode éco et capacité de 320L",
+      "specifications": {
+        "capacité": "320 L",
+        "classe_énergie": "A++",
+        "niveau_bruit": "38 dB"
+      },
+      "stock": 20,
+      "rating": 4.6
+    },
+    {
+      "id": 10,
+      "name": "Machine à Café ExpressOne",
+      "price": 149.99,
+      "category": "home",
+      "subcategory": "kitchen",
+      "brand": "Brewly",
+      "image": "https://placeimg.dev/400x300/78350f/ffffff?text=Café",
+      "description": "Machine à café automatique avec mousseur à lait intégré",
+      "specifications": {
+        "pression": "15 bars",
+        "capacité": "1.5 L",
+        "puissance": "1350W"
+      },
+      "stock": 55,
+      "rating": 4.3
+    },
+    {
+      "id": 11,
+      "name": "Micro-ondes CompactWave",
+      "price": 99.99,
+      "category": "home",
+      "subcategory": "kitchen",
+      "brand": "HomeEase",
+      "image": "https://placeimg.dev/400x300/fca5a5/000000?text=Micro-ondes",
+      "description": "Micro-ondes 20L avec fonction décongélation rapide",
+      "specifications": {
+        "contenance": "20 L",
+        "puissance": "700W",
+        "programmes": 6
+      },
+      "stock": 45,
+      "rating": 4.5
+    },
+    {
+      "id": 12,
+      "name": "Aspirateur Sans Sac Tornado",
+      "price": 179.99,
+      "category": "home",
+      "subcategory": "kitchen",
+      "brand": "CleanAir",
+      "image": "https://placeimg.dev/400x300/a21caf/ffffff?text=Aspirateur",
+      "description": "Aspirateur puissant avec filtre HEPA et réservoir 2L",
+      "specifications": {
+        "puissance": "800W",
+        "capacité": "2 L",
+        "filtre": "HEPA"
+      },
+      "stock": 30,
+      "rating": 4.6
+    },
+    {
+      "id": 13,
+      "name": "Canapé d’Angle Velours",
+      "price": 899.99,
+      "category": "home",
+      "subcategory": "furniture",
+      "brand": "ComfyHome",
+      "image": "https://placeimg.dev/400x300/f59e0b/ffffff?text=Canapé",
+      "description": "Canapé d’angle 5 places en velours doux et structure bois massif",
+      "specifications": {
+        "matière": "Velours",
+        "places": 5,
+        "couleurs": ["Beige", "Gris", "Bleu nuit"]
+      },
+      "stock": 10,
+      "rating": 4.9
+    },
+    {
+      "id": 14,
+      "name": "Table Basse Moderne Bois & Métal",
+      "price": 259.99,
+      "category": "home",
+      "subcategory": "furniture",
+      "brand": "Nordik",
+      "image": "https://placeimg.dev/400x300/14b8a6/ffffff?text=Table",
+      "description": "Table basse élégante alliant bois de chêne naturel et métal noir",
+      "specifications": {
+        "dimensions": "120x60x45 cm",
+        "matériaux": ["Chêne", "Métal"],
+        "poids": "14 kg"
+      },
+      "stock": 25,
+      "rating": 4.5
+    },
+    {
+      "id": 15,
+      "name": "Bureau d’Étude Compact",
+      "price": 189.99,
+      "category": "home",
+      "subcategory": "furniture",
+      "brand": "WorkEase",
+      "image": "https://placeimg.dev/400x300/7dd3fc/000000?text=Bureau",
+      "description": "Bureau compact avec rangement intégré, idéal pour le télétravail",
+      "specifications": {
+        "dimensions": "100x50x75 cm",
+        "matériaux": ["Bois MDF", "Métal"],
+        "couleurs": ["Noir", "Chêne clair"]
+      },
+      "stock": 40,
+      "rating": 4.4
+    },
+    {
+      "id": 16,
+      "name": "Chaise Ergonomique OfficePro",
+      "price": 249.99,
+      "category": "home",
+      "subcategory": "furniture",
+      "brand": "SitWell",
+      "image": "https://placeimg.dev/400x300/2563eb/ffffff?text=Chaise",
+      "description": "Chaise ergonomique avec support lombaire et accoudoirs réglables",
+      "specifications": {
+        "hauteur": "Réglable",
+        "matière": "Maille respirante",
+        "roulettes": "5"
+      },
+      "stock": 25,
+      "rating": 4.7
+    },
+    {
+      "id": 17,
+      "name": "Tapis de Course ProRunner 500",
+      "price": 999.99,
+      "category": "sports",
+      "subcategory": "fitness",
+      "brand": "RunTech",
+      "image": "https://placeimg.dev/400x300/ef4444/ffffff?text=Tapis",
+      "description": "Tapis de course pliable avec écran LCD et 15 programmes d’entraînement",
+      "specifications": {
+        "puissance": "2.5 CV",
+        "vitesse_max": "16 km/h",
+        "poids_max": "120 kg"
+      },
+      "stock": 15,
+      "rating": 4.6
+    },
+    {
+      "id": 18,
+      "name": "Vélo d’Appartement X-Fit",
+      "price": 349.99,
+      "category": "sports",
+      "subcategory": "fitness",
+      "brand": "CardioPlus",
+      "image": "https://placeimg.dev/400x300/84cc16/000000?text=Vélo",
+      "description": "Vélo d’appartement connecté avec application de suivi d’entraînement",
+      "specifications": {
+        "résistance": "Magnétique",
+        "siège": "Réglable",
+        "écran": "LCD multifonction"
+      },
+      "stock": 30,
+      "rating": 4.5
+    },
+    {
+      "id": 19,
+      "name": "Banc de Musculation Titan",
+      "price": 279.99,
+      "category": "sports",
+      "subcategory": "fitness",
+      "brand": "PowerForce",
+      "image": "https://placeimg.dev/400x300/ef4444/ffffff?text=Banc",
+      "description": "Banc de musculation inclinable avec support haltères intégré",
+      "specifications": {
+        "charge_max": "250 kg",
+        "positions": 6,
+        "matériaux": "Acier renforcé"
+      },
+      "stock": 20,
+      "rating": 4.3
+    },
+    {
+      "id": 20,
+      "name": "Corde à Sauter SpeedPro",
+      "price": 19.99,
+      "category": "sports",
+      "subcategory": "fitness",
+      "brand": "FitEdge",
+      "image": "https://placeimg.dev/400x300/fbbf24/000000?text=Corde",
+      "description": "Corde à sauter réglable ultra-rapide avec poignées antidérapantes",
+      "specifications": {
+        "longueur": "3 m",
+        "matériaux": "Acier gainé",
+        "couleurs": ["Rouge", "Noir"]
+      },
+      "stock": 120,
+      "rating": 4.7
+    },
+    {
+      "id": 21,
+      "name": "Tente 4 Places OutdoorCamp",
+      "price": 229.99,
+      "category": "sports",
+      "subcategory": "outdoor",
+      "brand": "CampFree",
+      "image": "https://placeimg.dev/400x300/3b82f6/ffffff?text=Tente",
+      "description": "Tente légère 4 places avec protection UV et double entrée",
+      "specifications": {
+        "places": 4,
+        "poids": "5.5 kg",
+        "résistance_eau": "3000 mm"
+      },
+      "stock": 20,
+      "rating": 4.5
+    },
+    {
+      "id": 22,
+      "name": "Sac à Dos Randonnée PeakTrail 40L",
+      "price": 89.99,
+      "category": "sports",
+      "subcategory": "outdoor",
+      "brand": "Trailite",
+      "image": "https://placeimg.dev/400x300/22c55e/000000?text=Sac",
+      "description": "Sac à dos ergonomique respirant avec housse imperméable et poches latérales",
+      "specifications": {
+        "capacité": "40 L",
+        "étanchéité": "Oui",
+        "matière": "Polyester 600D"
+      },
+      "stock": 55,
+      "rating": 4.6
+    },
+    {
+      "id": 23,
+      "name": "Lampe Frontale BrightBeam 2000",
+      "price": 34.99,
+      "category": "sports",
+      "subcategory": "outdoor",
+      "brand": "LumiGear",
+      "image": "https://placeimg.dev/400x300/f43f5e/ffffff?text=Lampe",
+      "description": "Lampe frontale rechargeable 2000 lumens avec différents modes d’éclairage",
+      "specifications": {
+        "puissance": "2000 lm",
+        "autonomie": "8 h",
+        "étanchéité": "IP65"
+      },
+      "stock": 70,
+      "rating": 4.8
+    },
+    {
+      "id": 24,
+      "name": "Chaussures de Randonnée TrailForce",
+      "price": 129.99,
+      "category": "sports",
+      "subcategory": "outdoor",
+      "brand": "Trailite",
+      "image": "https://placeimg.dev/400x300/f97316/ffffff?text=Chaussures",
+      "description": "Chaussures légères anti-dérapantes avec membrane respirante imperméable",
+      "specifications": {
+        "pointures": ["38", "39", "40", "41", "42", "43"],
+        "matériaux": "Synthétique et mesh",
+        "couleurs": ["Gris", "Noir"]
+      },
+      "stock": 35,
+      "rating": 4.6
+    },
+    {
+      "id": 25,
+      "name": "Grill Électrique FamilyCook",
+      "price": 159.99,
+      "category": "home",
+      "subcategory": "kitchen",
+      "brand": "Brewly",
+      "image": "https://placeimg.dev/400x300/facc15/000000?text=Grill",
+      "description": "Grill multifonction avec plaques antiadhésives et système de drainage de graisse",
+      "specifications": {
+        "puissance": "2000W",
+        "surface_cuisson": "30x25 cm",
+        "revêtement": "Antiadhésif"
+      },
+      "stock": 30,
+      "rating": 4.4
+    },
+    {
+      "id": 26,
+      "name": "Écouteurs sans fil AirSound A3",
+      "price": 79.99,
+      "category": "electronics",
+      "subcategory": "audio",
+      "brand": "SoundMax",
+      "image": "https://placeimg.dev/400x300/8b5cf6/ffffff?text=Écouteurs",
+      "description": "Écouteurs compacts avec réduction de bruit passive et autonomie de 24 heures",
+      "specifications": {
+        "autonomie": "24 h",
+        "connectivité": "Bluetooth 5.2",
+        "étui": "Recharge rapide"
+      },
+      "stock": 80,
+      "rating": 4.5
+    },
+    {
+      "id": 27,
+      "name": "Imprimante Multifonction JetFast 220",
+      "price": 129.99,
+      "category": "electronics",
+      "subcategory": "computing",
+      "brand": "Printly",
+      "image": "https://placeimg.dev/400x300/0ea5e9/ffffff?text=Imprimante",
+      "description": "Imprimante jet d’encre multifonction avec Wi-Fi et impression recto verso",
+      "specifications": {
+        "vitesse": "18 ppm",
+        "connectivité": "Wi-Fi",
+        "fonctions": ["Copie", "Scan", "Impression"]
+      },
+      "stock": 25,
+      "rating": 4.4
+    },
+    {
+      "id": 28,
+      "name": "Mixeur Portable SmoothMix",
+      "price": 49.99,
+      "category": "home",
+      "subcategory": "kitchen",
+      "brand": "HomeEase",
+      "image": "https://placeimg.dev/400x300/a3e635/000000?text=Mixeur",
+      "description": "Mixeur rechargeable sans fil pour smoothies et jus",
+      "specifications": {
+        "capacité": "500 ml",
+        "autonomie": "8 mixages",
+        "charge": "USB-C"
+      },
+      "stock": 70,
+      "rating": 4.3
+    },
+    {
+      "id": 29,
+      "name": "Barre de Traction DoorGym",
+      "price": 44.99,
+      "category": "sports",
+      "subcategory": "fitness",
+      "brand": "FitEdge",
+      "image": "https://placeimg.dev/400x300/93c5fd/000000?text=Traction",
+      "description": "Barre de traction ajustable pour encadrement de porte, installation sans vis",
+      "specifications": {
+        "longueur": "62–100 cm",
+        "charge_max": "120 kg",
+        "revêtement": "Mousse antidérapante"
+      },
+      "stock": 60,
+      "rating": 4.5
+    },
+    {
+      "id": 30,
+      "name": "Tente Ultralégère SoloCamp",
+      "price": 189.99,
+      "category": "sports",
+      "subcategory": "outdoor",
+      "brand": "CampFree",
+      "image": "https://placeimg.dev/400x300/15803d/ffffff?text=TenteSolo",
+      "description": "Tente individuelle ultralégère pour randonneurs et alpinistes",
+      "specifications": {
+        "places": 1,
+        "poids": "1.8 kg",
+        "imperméabilité": "4000 mm"
+      },
+      "stock": 40,
+      "rating": 4.7
+    }
+  ]
+}
+
